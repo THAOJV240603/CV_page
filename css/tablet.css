@@ -1,0 +1,108 @@
+@media screen and (max-width: 992px) {
+  .text-banner {
+    top: 20%;
+  }
+
+  .text-banner h1 {
+    font-size: 1.5rem;
+  }
+
+  .text-banner p {
+    font-size: 14px;
+  }
+
+  .nav li:nth-child(2) {
+    border-right: none;
+  }
+
+  .nav li:nth-child(3) {
+    display: none;
+  }
+
+  .nava3 {
+    display: none;
+  }
+
+  .form-control {
+    width: 80%;
+  }
+
+  .experience,
+  .activity,
+  .language {
+    margin-right: 1rem;
+  }
+
+  .education,
+  .hobby {
+    margin-right: 0;
+  }
+
+  .experience,
+  .education,
+  .activity,
+  .hobby {
+    margin-bottom: 1rem;
+  }
+
+  .language,
+  .skill {
+    margin-bottom: 0;
+  }
+
+  .cer-content1,
+  .cer-content2,
+  .cer-content3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cer-content1 {
+    border-right: 1px solid #d6c08d;
+  }
+
+  .cer-content2 {
+    padding-left: 0.9rem;
+  }
+
+  .cer-content2 img {
+    width: 110%;
+  }
+
+  .cer-contentR {
+    border-right: none;
+  }
+
+  .cer-img {
+    margin-bottom: 1rem;
+  }
+
+  .cer-img img {
+    width: 100%;
+  }
+
+  .cer-title {
+    font-size: 14px;
+  }
+
+  .cer-contentB {
+    font-size: 10px;
+  }
+
+  #project {
+    margin-bottom: 10%;
+  }
+
+  .title-project {
+    font-size: 14px;
+  }
+
+  .infor-project,
+  .project-detail {
+    font-size: 10px;
+  }
+
+  .td-L {
+    width: 40%;
+  }
+}

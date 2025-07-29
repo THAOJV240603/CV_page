@@ -1,0 +1,113 @@
+@media screen and (max-width: 576px) {
+  .text-banner h1 {
+    font-size: 1rem;
+  }
+
+  .text-banner p {
+    font-size: 12px;
+  }
+
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav li {
+    border: none;
+    text-align: left;
+    width: 40%;
+    flex-basis: 0;
+  }
+
+  .nav li:last-child {
+    border: none;
+  }
+
+  .nav li:nth-child(2) {
+    border: none;
+  }
+
+  .form-control {
+    width: 90%;
+  }
+
+  .experience,
+  .education,
+  .activity,
+  .hobby,
+  .language,
+  .skill {
+    margin-right: 0;
+  }
+
+  .language {
+    margin-bottom: 1rem;
+  }
+
+  .certificate {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .cer-content {
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .cer-content1 {
+    border-bottom: 1px solid #d6c08d;
+    border-right: none;
+  }
+
+  .cer-content2 {
+    border-bottom: 1px solid #d6c08d;
+    padding-left: 0;
+  }
+
+  .cer-contentR {
+    border-right: none;
+  }
+
+  .cer-title {
+    font-size: 18px;
+  }
+
+  .cer-contentB {
+    font-size: 16px;
+  }
+
+  .cer-img {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .cer-img img {
+    width: 100%;
+  }
+
+  #project {
+    margin-bottom: 30%;
+  }
+
+  .box-project {
+    border: 0.5px solid gray;
+  }
+
+  .project-child-mobile {
+    width: 98%;
+  }
+
+  .title-project {
+    font-size: 18px;
+  }
+
+  .infor-project,
+  .project-detail {
+    font-size: 16px;
+  }
+
+  .td-L {
+    width: 35%;
+  }
+}
